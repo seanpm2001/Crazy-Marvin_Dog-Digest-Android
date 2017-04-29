@@ -1,2 +1,2 @@
-# Dog-Digest-Android
-Dog Digest Android App
+# Dog Digest Android App
+
