@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="no_pet_available">No hay mascotas.\nPresiona el botón + de
+        abajo para añadir una.
+    </string>
+    <string name="activity_mypets">Mis mascotas</string>
+    <string name="add_pet">Añadir mascota</string>
+    <string name="edit_pet">Editar mascota</string>
+    <string name="species">Especie</string>
+    <string name="DOG">Perro</string>
+    <string name="CAT">Gato</string>
+    <string name="name">Nombre</string>
+    <string name="date_of_birthday">Fecha de nacimiento</string>
+    <string name="empty_field">Campos no rellenados o inválidos.</string>
+    <plurals name="years">
+        <item quantity="one">%d año</item>
+        <item quantity="other">%d años</item>
+    </plurals>
+    <plurals name="months">
+        <item quantity="one">%d mes</item>
+        <item quantity="other">%d meses</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d día</item>
+        <item quantity="other">%d días</item>
+    </plurals>
+    <string name="info">Info</string>
+    <string name="treatments">Tratamientos</string>
+    <string name="delete">Eliminar</string>
+    <string name="period">Frecuencia (días)</string>
+    <string name="term">Duración (días)</string>
+    <string name="no_treatment_available">No hay tratamientos.\nPresiona el botón + de abajo para añadir uno.</string>
+    <string name="places">Lugar</string>
+    <string name="HOME">Casa</string>
+    <string name="VET">Veterinario</string>
+    <string name="TRAINING">Centro de entrenamiento</string>
+    <string name="OTHERS">Otros</string>
+    <string name="dogs">Perros</string>
+    <string name="cats">Gatos</string>
+    <string name="any">Cualquiera</string>
+    <string name="add_treatment">Añadir tratamiento</string>
+    <string name="edit_treatment">Editar tratamiento</string>
+    <string name="deleted">suprimido</string>
+    <string name="added">añadido</string>
+    <string name="appointments_tab">CITAS</string>
+    <string name="monitoring_tab">CONTROL</string>
+    <plurals name="grams">
+        <item quantity="one">%d gramo</item>
+        <item quantity="other">%d gramos</item>
+    </plurals>
+    <string name="grams">Gramos</string>
+    <string name="date">Fecha</string>
+    <string name="add_checkpoint">Añadir control</string>
+    <string name="edit_checkpoint">Editar control</string>
+    <string name="checkpoint_added">Control añadido</string>
+    <string name="checkpoint_deleted">Control suprimido</string>
+    <string name="quadrivalent_vaccine">Vacuna tetravalente</string>
+    <string name="rabies_vaccine">Vacuna antirrábica</string>
+    <string name="deworming">Desparasitación</string>
+    <string name="add_appointment">Añadir cita</string>
+    <string name="edit_appointment">Editar cita</string>
+    <string name="no_treatments">Ningún tratamiento para el tipo de mascota.
+    </string>
+    <string name="treatment">Tratamiento</string>
+    <string name="first_day">Primer día</string>
+    <string name="appointment_added">Cita añadida</string>
+    <string name="appointment_deleted">Cita suprimida</string>
+    <string name="no_appointment_available">No hay citas.\nPresiona el botón + de abajo para añadir una.</string>
+    <string name="no_checkpoint_available">No hay puntos de control de peso.\nPresiona el botón + de abajo para añadir uno.</string>
+    <string name="mark_as_attended">¿Marcar cita como atendida hoy?</string>
+    <string name="attended">Última vez atendido</string>
+    <string name="settings">Ajustes</string>
+    <string name="notification">Notificación</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="notifications_summary">Notificar cuando una cita requiera atención</string>
+    <string name="about">Acerca de</string>
+</resources>

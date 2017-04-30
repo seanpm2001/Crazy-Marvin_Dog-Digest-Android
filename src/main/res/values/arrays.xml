@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="species">
+        <item>@string/DOG</item>
+        <item>@string/CAT</item>
+    </string-array>
+    <string-array name="box_colors" translatable="false">
+        <item>#ef9a9a</item>
+        <item>#f48fb1</item>
+        <item>#ce93d8</item>
+        <item>#b39ddb</item>
+        <item>#9fa8da</item>
+        <item>#90caf9</item>
+        <item>#81d4fa</item>
+        <item>#80deea</item>
+        <item>#80cbc4</item>
+        <item>#a5d6a7</item>
+        <item>#c5e1a5</item>
+        <item>#ffcc80</item>
+        <item>#ffab91</item>
+        <item>#bcaaa4</item>
+        <item>#b0bec5</item>
+    </string-array>
+    <string-array name="places">
+        <item>@string/HOME</item>
+        <item>@string/VET</item>
+        <item>@string/TRAINING</item>
+        <item>@string/OTHERS</item>
+    </string-array>
+    <string-array name="treatment_species">
+        <item>@string/DOG</item>
+        <item>@string/CAT</item>
+        <item>@string/any</item>
+    </string-array>
+</resources>
+

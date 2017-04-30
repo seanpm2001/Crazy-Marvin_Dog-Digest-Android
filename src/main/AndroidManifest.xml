@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rocks.poopjournal.dogdigest.android">
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <application android:label="Dog Digest"
+        android:name=".Controller"
+        android:icon="@drawable/icon"
+        android:allowBackup="true"
+        android:theme="@style/laicare_base"
+        android:supportsRtl="false"
+        >
+        <activity android:name=".view.PetList"
+                  android:label="Dog Digest">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.TreatmentList"
+            android:label="@string/treatments"
+            />
+        <activity android:name=".view.PetTabs"
+            />
+        <activity android:name=".view.SettingsActivity"
+            android:label="@string/settings"
+            />
+        <activity android:name=".view.AboutActivity"
+            android:label="@string/about"
+            />
+        <receiver android:name=".service.BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".service.StartAppointments"></receiver>
+        <service android:name=".service.AppointmentsNotify"
+            android:enabled="true"
+            android:exported="false"
+            />
+    </application>
+</manifest>

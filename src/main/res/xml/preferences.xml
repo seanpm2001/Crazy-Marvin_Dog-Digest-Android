@@ -1,0 +1,13 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/notification"
+        android:key="pref_key_storage_settings"
+        >
+        <CheckBoxPreference
+            android:key="pref_key_notifications"
+            android:summary="@string/notifications_summary"
+            android:title="@string/notifications"
+            android:defaultValue="true"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

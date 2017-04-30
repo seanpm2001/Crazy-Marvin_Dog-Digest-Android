@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+    <string name="no_pet_available">Cap mascota.\nPrem el botó + de sota per
+        afegir-ne una.
+    </string>
+    <string name="activity_mypets">Les meves mascotes</string>
+    <string name="add_pet">Afegir mascota</string>
+    <string name="edit_pet">Editar mascota</string>
+    <string name="species">Espècie</string>
+    <string name="DOG">Gos</string>
+    <string name="CAT">Gat</string>
+    <string name="name">Nom</string>
+    <string name="date_of_birthday">Data de naixament</string>
+    <string name="empty_field">Camps no emplenats o invàlids.</string>"
+    <plurals name="years">
+        <item quantity="one">%d any</item>
+        <item quantity="other">%d anys</item>
+    </plurals>
+    <plurals name="months">
+        <item quantity="one">%d mes</item>
+        <item quantity="other">%d mesos</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d dia</item>
+        <item quantity="other">%d dies</item>
+    </plurals>
+    <string name="info">Info</string>
+    <string name="treatments">Tractaments</string>
+    <string name="delete">Eliminar</string>
+    <string name="period">Freqüència (dies)</string>
+    <string name="term">Duració (dies)</string>
+    <string name="no_treatment_available">Cap tractament.\nPrem el botó + de sota per afegir-ne un.</string>
+    <string name="places">Lloc</string>
+    <string name="HOME">Casa</string>
+    <string name="VET">Veterinari</string>
+    <string name="TRAINING">Centre d\'entrenament</string>
+    <string name="OTHERS">Altres</string>
+    <string name="dogs">Gossos</string>
+    <string name="cats">Gats</string>
+    <string name="any">Qualsevol</string>
+    <string name="add_treatment">Afegir tractament</string>
+    <string name="edit_treatment">Editar tractament</string>
+    <string name="deleted">suprimit</string>
+    <string name="added">afegit</string>
+    <string name="appointments_tab">CITES</string>
+    <string name="monitoring_tab">CONTROL</string>
+    <plurals name="grams">
+        <item quantity="one">%d gram</item>
+        <item quantity="other">%d grams</item>
+    </plurals>
+    <string name="grams">Grams</string>
+    <string name="date">Data</string>
+    <string name="add_checkpoint">Afegir control</string>
+    <string name="edit_checkpoint">Editar control</string>
+    <string name="checkpoint_added">Control afegit</string>
+    <string name="checkpoint_deleted">Control suprimit</string>
+    <string name="quadrivalent_vaccine">Vacuna tetravalent</string>
+    <string name="rabies_vaccine">Vacuna antiràbica</string>
+    <string name="deworming">Desparasitació</string>
+    <string name="add_appointment">Afegir cita</string>
+    <string name="edit_appointment">Editar cita</string>
+    <string name="no_treatments">Cap tractament per al tipus de mascota.
+    </string>
+    <string name="treatment">Tractament</string>
+    <string name="first_day">Primer dia</string>
+    <string name="appointment_added">Cita afegida</string>
+    <string name="appointment_deleted">Cita suprimida</string>
+    <string name="no_appointment_available">Cap cita.\nPrem el botó + de sota per afegir-ne una.</string>
+    <string name="no_checkpoint_available">Cap punt de control de pes.\nPrem el botó + de sota per afegir-ne un.</string>
+    <string name="mark_as_attended">Marcar cita com atesa avui?</string>
+    <string name="attended">Última vegada atesa</string>
+    <string name="settings">Preferències</string>
+    <string name="notification">Notificacions</string>
+    <string name="notifications">Notificacions</string>
+    <string name="notifications_summary">Notificar quan una cita necessita atención</string>
+    <string name="about">Quant a</string>
+</resources>

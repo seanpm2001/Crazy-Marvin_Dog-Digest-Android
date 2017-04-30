@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="laicare_base.ListSeparatorTextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+</resources>

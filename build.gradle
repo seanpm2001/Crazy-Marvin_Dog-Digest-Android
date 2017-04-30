@@ -1,0 +1,82 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.1'
+        classpath('fr.avianey.androidsvgdrawable:gradle-plugin:3.0.0') {
+            exclude group: 'xerces'
+        }
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'androidsvgdrawable'
+android {
+    compileSdkVersion 'android-25'
+    buildToolsVersion '25.0.0'
+    defaultConfig {
+        applicationId "rocks.poopjournal.dogdigest.android"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 2
+        versionName "0.0.2"
+        resConfigs "en", "es", "ca"
+    }
+    if(project.hasProperty("RELEASE_STORE_FILE")) {
+        signingConfigs {
+            release {
+                storeFile file(RELEASE_STORE_FILE)
+                storePassword RELEASE_STORE_PASSWORD
+                keyAlias RELEASE_KEY_ALIAS
+                keyPassword RELEASE_KEY_PASSWORD
+            }
+        }
+    }
+    buildTypes {
+        release {
+            debuggable false
+            minifyEnabled true
+            proguardFile 'proguard.txt'
+            proguardFile getDefaultProguardFile('proguard-android.txt')
+            if(project.hasProperty("RELEASE_STORE_FILE")) {
+                signingConfig signingConfigs.release
+            } else {
+                signingConfig null
+            }
+        }
+        debug {
+            debuggable true
+        }
+    }
+    sourceSets {
+        main.res.srcDirs = [main.res.srcDirs, "build/generated/res/main"]
+    }
+    lintOptions {
+        disable 'GoogleAppIndexingWarning'
+        checkReleaseBuilds false
+    }
+    tasks.withType(JavaCompile) {
+        options.compilerArgs << "-Xlint:deprecation"
+    }
+}
+repositories {
+    mavenCentral()
+    jcenter()
+}
+dependencies {
+    compile "com.android.support:appcompat-v7:23.4.0"
+    compile "com.android.support:recyclerview-v7:23.4.0"
+    compile "com.android.support:design:23.4.0"
+    compile 'com.takisoft.fix:preference-v7:23.4.0.4'
+    compile "com.makeramen:roundedimageview:2.2.1"
+    compile 'com.jjoe64:graphview:4.0.1'
+}
+task svgToPng(type: fr.avianey.androidsvgdrawable.gradle.SvgDrawableTask) {
+    from = files('src/main/svg-png')
+    to = file('build/generated/res/main')
+    createMissingDirectories = true
+    overwriteMode = 'ifModified'
+    targetedDensities = ['ldpi', 'hdpi', 'mdpi', 'xhdpi', 'xxhdpi', 'xxxhdpi']
+    outputFormat = 'PNG'
+    outputType = 'drawable'
+}

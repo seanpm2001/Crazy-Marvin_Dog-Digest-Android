@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">LaiCare</string>
+    <string name="no_pet_available">No pets.\nPress + button below to add one.
+    </string>
+    <string name="activity_mypets">My pets</string>
+    <string name="add_pet">Add pet</string>
+    <string name="edit_pet">Edit pet</string>
+    <string name="species">Species</string>
+    <string name="DOG">Dog</string>
+    <string name="CAT">Cat</string>
+    <string name="name">Name</string>
+    <string name="date_of_birthday">Date of birthday</string>
+    <string name="empty_field">Missing or invalid fields.</string>
+    <plurals name="years">
+        <item quantity="one">%d year</item>
+        <item quantity="other">%d years</item>
+    </plurals>
+    <plurals name="months">
+        <item quantity="one">%d month</item>
+        <item quantity="other">%d months</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <string name="info">Info</string>
+    <string name="treatments">Treatments</string>
+    <string name="delete">Delete</string>
+    <string name="period">Frequency (days)</string>
+    <string name="term">Duration (days)</string>
+    <string name="no_treatment_available">No treatments.\nPress + button below to add one.</string>
+    <string name="places">Place</string>
+    <string name="HOME">Home</string>
+    <string name="VET">Vet</string>
+    <string name="TRAINING">Training center</string>
+    <string name="OTHERS">Others</string>
+    <string name="dogs">Dogs</string>
+    <string name="cats">Cats</string>
+    <string name="any">Any</string>
+    <string name="add_treatment">Add treatment</string>
+    <string name="edit_treatment">Edit treatment</string>
+    <string name="deleted">deleted</string>
+    <string name="added">added</string>
+    <string name="appointments_tab">APPOINTMENTS</string>
+    <string name="monitoring_tab">MONITORING</string>
+    <plurals name="grams">
+        <item quantity="one">%d gram</item>
+        <item quantity="other">%d grams</item>
+    </plurals>
+    <string name="grams">Grams</string>
+    <string name="date">Date</string>
+    <string name="add_checkpoint">Add checkpoint</string>
+    <string name="edit_checkpoint">Edit checkpoint</string>
+    <string name="checkpoint_added">Checkpoint added</string>
+    <string name="checkpoint_deleted">Checkpoint deleted</string>
+    <string name="quadrivalent_vaccine">Quadrivalent vaccine</string>
+    <string name="rabies_vaccine">Rabies vaccine</string>
+    <string name="deworming">Deworming</string>
+    <string name="add_appointment">Add appointment</string>
+    <string name="edit_appointment">Edit appointment</string>
+    <string name="no_treatments">No treatments for this kind of pet.</string>
+    <string name="treatment">Treatment</string>
+    <string name="first_day">First day</string>
+    <string name="appointment_added">Appointment added</string>
+    <string name="appointment_deleted">Appointment deleted</string>
+    <string name="no_appointment_available">No appointments.\nPress + button below to add one.</string>
+    <string name="no_checkpoint_available">No checkpoints.\nPress + button below to add one.</string>
+    <string name="mark_as_attended">Mark appointment as attended today?</string>
+    <string name="attended">Last time attended</string>
+    <string name="settings">Settings</string>
+    <string name="notification">Notification</string>
+    <string name="notifications">Notifications</string>
+    <string name="notifications_summary">Notify when an appointment needs attention</string>
+    <string name="about">About</string>
+    <string name="about_message" translatable="false">Copyright © 2016 Francesc Gordillo i Cortínez
+			\n\nThis program is free software: you can redistribute it and/or modify
+			it under the terms of the GNU General Public License as published by
+			the Free Software Foundation, either version 3 of the License, or
+			(at your option) any later version.
+			\n\nThis program is distributed in the hope that it will be useful,
+			but WITHOUT ANY WARRANTY; without even the implied warranty of
+			MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+			GNU General Public License for more details.
+			\n\nYou should have received a copy of the GNU General Public License
+			along with this program. If not, see https://www.gnu.org/licenses
+            \n\nDownload the full source code at https://gitlab.com/frangor/laicare
+            \n\n\n<b>Libraries:</b>
+			\n\nhttps://developer.android.com/tools/support-library\n(Apache License, Version 2.0)
+			\n\nhttps://github.com/google/material-design-icons\n(CC BY 4.0)
+			\n\nhttps://github.com/vinc3m1/RoundedImageView\n(Apache License, Version 2.0)
+            \n\nhttps://github.com/jjoe64/GraphView\n(GPL-v2)
+	</string>
+</resources>
