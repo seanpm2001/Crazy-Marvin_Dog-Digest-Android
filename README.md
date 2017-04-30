@@ -4,4 +4,4 @@
 
 # Dog Digest Android App
 
-The [Dog Digest](https://poopjournal.rocks/DogDigest/) [Android](https://www.android.com/) app is a fork of the awesome [LaiCare](https://gitlab.com/LaiCare/laicare) Android app.
+The [Dog Digest](https://poopjournal.rocks/DogDigest/) [Android](https://www.android.com/) app is a fork of the awesome [LaiCare](https://gitlab.com/LaiCare/laicare) Android app from the fabulous [Francesc Gordillo i Cortínez](https://frangor.info).
